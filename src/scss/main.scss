@@ -1,0 +1,14 @@
+@import "module.scss";
+
+div {
+  p {
+    font-size: 1rem;
+  }
+}
+
+
+a {
+  &:hover {
+    transform: scale(1.5);
+  }
+}
